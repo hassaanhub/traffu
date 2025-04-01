@@ -1,0 +1,38 @@
+
+body {
+    background-color: white;
+    color: black; 
+  }
+  
+  .navbar {
+    background-color: black; 
+    color: #fff; 
+    padding: 1em;
+    text-align: center;
+  }
+  
+  #pressor {
+    background-color: lightgrey;
+    color: black;
+    border: none;
+    padding: 10px;
+  }
+  ul,li{
+    display: inline-block;
+    margin: 5px 60px;
+    }
+.dark-theme {
+    background-color: black; 
+    color: white;
+  }
+  
+  .dark-theme .navbar {
+    background-color: rgb(98, 98, 98);
+  }
+  
+  .dark-theme #pressor {
+    background-color: black;
+    color: white;
+  }
+  
+    
