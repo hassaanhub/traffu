@@ -1,0 +1,20 @@
+.btn-continue {
+      background-color: #2d7b1f; 
+      color: white;
+    }
+    .btn-continue:hover {
+      background-color: #25671a;
+    }
+    .bottom-nav {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background-color: #f8f9fa;
+      border-top: 1px solid #ddd;
+      display: flex;
+      justify-content: space-around;
+      padding: 10px 0;
+    }
+    .bottom-nav i {
+      font-size: 1.5rem;
+    }
