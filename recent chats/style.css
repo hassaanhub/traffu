@@ -1,0 +1,30 @@
+body {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+        .chat-container {
+            max-width: 400px;
+            height: 100vh;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            padding: 1rem;
+        }
+        .chat-header {
+            flex-shrink: 0;
+        }
+        .chat-list {
+            overflow-y: auto;
+            flex-grow: 1;
+        }
+        .chat-item-text {
+            font-size: 0.9rem;
+        }
+        .chat-icon {
+            font-size: 1.2rem;
+        }
+        .status-dot {
+            width: 10px;
+            height: 10px;
+        }
